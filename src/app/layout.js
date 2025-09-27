@@ -11,8 +11,6 @@ export default function RootLayout({ children }) {
         <title>Online VGU – Dynamic Online Degree</title>
 
         {/* Load CSS files from /public - matching the HTML structure */}
-        <link rel="stylesheet" crossOrigin="" href="/assets/index_b9e_zdrh.css" />
-        <link rel="stylesheet" href="/css/inline_styles.css" />
       </head>
       <body>
         <div id="root">
@@ -28,12 +26,11 @@ export default function RootLayout({ children }) {
         
         {/* Meta Pixel Code */}
         <noscript>
-          <img height="1" width="1" style={{display: 'none'}} src="/www.facebook.com/tr" />
+          <img height="1" width="1" style={{display: 'none'}} src="/www.facebook.com/tr" alt="" />
         </noscript>
         <iframe height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
         
         <div id="huntr-react-container-2"></div>
-        <Script src="/js/inline_scripts.js" />
       </body>
     </html>
   );

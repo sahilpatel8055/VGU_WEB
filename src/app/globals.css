@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* Import the existing CSS files that are referenced in the HTML */
-/* Note: These are imported in the layout.js via link tags to match the HTML structure */
+/* These files are loaded from the public directory and contain the styling */
 
 :root {
   --background: #ffffff;
